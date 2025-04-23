@@ -1,44 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CompBros</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="COMPBROS Blog - Insights on HCI, tech, and design." />
+  <title>COMPBROS Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background: #f0f0f0;
-      text-align: center;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f4f4f5;
+      color: #111;
+      line-height: 1.6;
     }
     header {
-      background-color: #333;
-      color: white;
-      padding: 1rem;
+      background-color: #1e293b;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+    header p {
+      font-size: 1rem;
+      font-weight: 400;
+      opacity: 0.8;
     }
     main {
       padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .post {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .post h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .post p {
+      font-size: 1rem;
+      color: #444;
     }
     footer {
-      background-color: #333;
-      color: white;
-      padding: 1rem;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+      text-align: center;
+      padding: 2rem;
+      background: #e2e8f0;
+      font-size: 0.9rem;
+      color: #333;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to CompBros</h1>
+    <h1>COMPBROS</h1>
+    <p>Your go-to blog for HCI insights, tech takes, and smooth UX stories.</p>
   </header>
+
   <main>
-    <p>This is a simple website template for the CompBros community.</p>
+    <div class="post">
+      <h2>🧠 HCI: Why Good UX is Invisible</h2>
+      <p>
+        Ever noticed how the best apps just "feel right"? That's intentional. In this post, we unpack how Human-Computer Interaction principles power intuitive experiences.
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>🎮 Steam vs Epic: The UX Showdown</h2>
+      <p>
+        We ran a usability test using the SUS scale. The results might surprise you. Here's our full breakdown of how the two gaming giants stack up.
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>🚀 Prototyping Like a Pro</h2>
+      <p>
+        Paper, digital, interactive — prototypes come in all shapes. Let’s talk methodology, pitfalls, and why testing early saves pain later.
+      </p>
+    </div>
   </main>
+
   <footer>
-    <p>&copy; 2025 CompBros. All rights reserved.</p>
+    <p>&copy; 2025 COMPBROS. Made with caffeine and code.</p>
   </footer>
 </body>
 </html>
